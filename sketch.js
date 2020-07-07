@@ -9,7 +9,7 @@ function setup()
   car = createSprite(500, 200, 50, 50);
   wall = createSprite(800, 200, 50, 50);
   wall.shapeColor = color(80,80,80);
-  speed = random(55, 90);
+  speed = random(5, 9);
   weight = random(400, 1500);
   car.velocityX = speed;
 }
