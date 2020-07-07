@@ -11,7 +11,7 @@ function setup()
   wall.shapeColor = color(80,80,80);
   speed = random(5, 9);
   weight = random(400, 1500);
-  car.velocityX = speed;
+  car.velocityX = 1;
 }
 
 function draw()
